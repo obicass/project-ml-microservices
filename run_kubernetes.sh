@@ -17,3 +17,5 @@ kubectl get pods
 # Step 4:
 # Forward the container port to a host
 kubectl port-forward obi-microservice 8000:80
+
+
