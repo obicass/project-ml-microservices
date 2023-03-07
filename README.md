@@ -8,17 +8,10 @@
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/obicass/project-ml-microservices/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/obicass/project-ml-microservices/tree/master)
 
-<<<<<<<<< saved version
-app.py: A Python Flask app that serves housing price predictions via API calls.
-Dockerfile: Instructions for building a Docker image of the app.
-make_prediction.sh: A shell script that sends a request to the Flask app for a prediction.
-Makefile: Commands for setting up and running the Docker container.
-requirements.txt: Dependencies required to run the app.
-=========
-To complete the project, several tools were used, including an AWS account, Minikube, Amazon Linux EC2, Cloud9 CircleCI account, and Docker Hub account. Minikube and Kubectl were installed on the Linux instance containing app.py.
->>>>>>>>> local version
 
-<<<<<<<<< saved version
+The aim of this project is to deploy a Python Flask app, app.py, that provides housing price predictions through API calls. To achieve this, the following steps were followed:
+
+Containerize the app by creating a Dockerfile.
 Deploy the containerized app using Docker and Kubernetes for making predictions.
 Integrate the code into CircleCI for testing.
 To complete this project, a basic understanding of Python, Flask, and Docker is sufficient. Additionally, you will need the following tools:
@@ -34,7 +27,3 @@ Dockerfile: Instructions for building a Docker image of the app.
 make_prediction.sh: A shell script that sends a request to the Flask app for a prediction.
 Makefile: Commands for setting up and running the Docker container.
 requirements.txt: Dependencies required to run the app.
-
-=========
-
->>>>>>>>> local version
